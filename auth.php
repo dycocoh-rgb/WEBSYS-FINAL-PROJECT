@@ -11,7 +11,7 @@ function isAdmin() {
 
 function requireLogin() {
     if (!isLoggedIn()) {
-        header("Location: /blood-bank/index.php");
+        header("Location: /blood-bank/sign-in.php");
         exit();
     }
 }
