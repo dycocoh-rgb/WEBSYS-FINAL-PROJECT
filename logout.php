@@ -1,6 +1,6 @@
 <?php
 session_start();
 session_destroy();
-header("Location: /blood-bank/index.php");
+header("Location: /blood-bank/sign-in.php");
 exit();
 ?>
